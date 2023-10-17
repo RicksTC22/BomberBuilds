@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(77, 77, 77);
+    padding:0;
+    margin: 0;
+}
+
+.sectionOne, .sectionTwo{
+    padding:15px;
+    width:100%;
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.sectionOne{
+    background-color: black;
+    color:white;
+}
+
+.sectionTwo{
+    background-color: white;
+}
+
+.pageTitle{
+    font-weight: 800;
+    font-size: 50px;
+    margin:10px;
+    width:100%;
+}
+
+.info{
+    height: auto;
+}
+
+.ender{
+    height:100px;
+}
+
+a:link{
+    color:limegreen;
+}
+
+a:visited{
+    color:green;
+}

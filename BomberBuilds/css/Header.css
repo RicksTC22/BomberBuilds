@@ -1,0 +1,59 @@
+header{
+    position:fixed;
+    right:0;
+    left:0;
+    top:0;
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: space-around;
+    background-color:rgb(48, 48, 48);
+    color:white;
+    opacity:50%;
+    transition-duration:0.5s;
+}
+
+.title{
+    margin:20px;
+    font-size: 40px;
+    font-weight: bold;
+    align-self:center;
+}
+
+.headerButtons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    align-self:center;
+}
+
+.aboutUsBtn, .homeBtn, .adBtn, .financesBtn{
+   margin:5px;
+   height:50px;
+   width:90%;
+}
+
+.logo{
+    color:white;
+    align-self:center;
+}
+
+header:hover{
+    opacity:100%;
+}
+
+.spacer{
+    height:100px;
+}
+
+.hoverText{
+    position:absolute;
+    justify-self:center;
+    color:white;
+    opacity: 100%;
+    bottom:3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logoPic{
+    width:50px;
+}
